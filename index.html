@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather</title>
+</head>
+<body>
+
+  <div class="container">
+    <img class="img-app" src="./img/weather_app.svg" alt="">
+    <div class="weather-card none">
+      <div class="icon-logo">
+        <img src="" alt="">
+      </div>
+      <div class="details-weather">
+        <h5 class="city">City</h5>
+        <div class="weather-desc">
+          <div class="temp">
+            <span></span>
+            <span>&deg;C</span>
+          </div>
+          <div class="condition"></div>
+        </div>
+      </div>
+    </div>
+
+    <form class="change-location">
+      <label for="city">Enter a location</label>
+      <input type="text" name="city" class="location">
+    </form>
+  </div>
+  <script src="./weather.js"></script>
+</body>
+</html>
